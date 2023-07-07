@@ -2,13 +2,22 @@
   "name": "next-method-validation",
   "version": "1.0.0",
   "description": "Minimal Next.js API wrapper that validates request methods.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc & minify",
+    "minify": "yarn terser dist/index.js -o dist/index.js --compress --mangle"
+  },
   "repository": "git@github.com:timthedev07/next-method-validation.git",
   "author": "Tim <timpersonal07@gmail.com>",
   "license": "MIT",
   "private": false,
+  "peerDependencies": {
+    "next": "^13.4.9"
+  },
   "devDependencies": {
+    "@types/node": "^20.4.0",
     "next": "^13.4.9",
+    "terser": "^5.18.2",
     "tsc": "^2.0.4",
     "typescript": "^5.1.6"
   }

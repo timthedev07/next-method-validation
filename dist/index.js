@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.withMethodValidation=void 0;const withMethodValidation=(t,e,o,d)=>async(i,a)=>{i.method&&i.method.toUpperCase()===e?t(i,a):a.status(d||405).send(o||"Method not allowed")};exports.withMethodValidation=withMethodValidation;
