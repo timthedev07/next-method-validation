@@ -1,0 +1,14 @@
+{
+  "name": "next-method-validation",
+  "version": "1.0.0",
+  "description": "Minimal Next.js API wrapper that validates request methods.",
+  "main": "index.js",
+  "repository": "git@github.com:timthedev07/next-method-validation.git",
+  "author": "Tim <timpersonal07@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.6"
+  }
+}
