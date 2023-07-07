@@ -4,7 +4,7 @@
   "description": "Minimal Next.js API wrapper that validates request methods.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc & minify",
+    "build": "tsc && minify",
     "minify": "yarn terser dist/index.js -o dist/index.js --compress --mangle"
   },
   "repository": "git@github.com:timthedev07/next-method-validation.git",
