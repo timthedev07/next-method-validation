@@ -1,6 +1,6 @@
 {
   "name": "next-method-validation",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Minimal Next.js API wrapper that validates request methods.",
   "main": "dist/index.js",
   "scripts": {
